@@ -1,0 +1,14 @@
+{ "name" : "postmark-api"
+, "description" : "Email sending in node using http://www.postmarkapp.com"
+, "tags" : [ "email" ]
+, "version" : "0.1.0"
+, "author" : "Alan Kockelbergh <ekstergans@gmail.com>"
+, "repository" :
+  { "type" : "git"
+  , "url" : "http://github.com/ekstergans/node-postmark.git"
+  }
+, "bugs" :
+  { "web" : "http://github.com/ekstergans/node-postmark/issues" }
+, "engines" : ["node >=0.3.0"]
+, "main" : "./lib/postmark"
+}
