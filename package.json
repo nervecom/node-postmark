@@ -1,7 +1,7 @@
 { "name" : "postmark-api"
 , "description" : "Email sending in node using http://www.postmarkapp.com"
 , "tags" : [ "email" ]
-, "version" : "0.1.0"
+, "version" : "0.2.0"
 , "author" : "Alan Kockelbergh <ekstergans@gmail.com>"
 , "repository" :
   { "type" : "git"
