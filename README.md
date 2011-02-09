@@ -28,7 +28,7 @@ postmark.send({
 * `apiKey` API-key provided by Postmark
 * `options` Options object used as default values for postmark.send()
   * `ssl` Use SSL, defaults to false
-  * any option valid for postmark.send()'s message
+  * `message` [Postmark Message Format](http://developer.postmarkapp.com/developer-build.html#message-format)
 
 
 ### postmark.send(message, [callback])
@@ -47,7 +47,7 @@ Returns a summary of inactive emails and bounces by type.
 * `callback`
 
 
-### postmark.bounces(count, offset, filter,[callback])
+### postmark.bounces(count, offset, filter, [callback])
 
 List of bounces, optionally filtered
 
@@ -82,7 +82,6 @@ List of tags used
 ### postmark.bounceActivate(bounceID, [callback])
 
 Reactivate the recipient associated with a bounce.
-If a bounce-object is given, `CanActivate` will be checked before attempting activation.
 
-* `bounceID` a bounce's ID, or a bounce-object obtained from postmark.bounces() or postmark.bounce()
+* `bounceID` a bounce's ID
 * `callback`
