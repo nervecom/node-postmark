@@ -17,9 +17,13 @@ postmark.send({
 
 ## Installation
 
-<pre>
-  npm install postmark-api
-</pre>
+    npm install postmark-api
+
+## Tests
+
+Set your postmark-api-key in `test/config.js` or the bounce-tests will fail, then run:
+
+    nodeunit test/test-postmark.js
 
 ## API
 
